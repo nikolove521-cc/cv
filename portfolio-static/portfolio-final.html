@@ -154,18 +154,78 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .skill-items{list-style:none;display:flex;flex-direction:column;gap:6px}
 .skill-items li{font-size:.78rem;color:var(--text-secondary);padding-left:16px;position:relative}
 .skill-items li::before{content:'';position:absolute;left:0;top:50%;width:4px;height:1px;background:var(--gold)}
-/* Life Gallery Modern */
+/* Life Gallery - Masonry with Design Frames */
 .life-gallery{padding:100px 0 40px;background:var(--bg)}
 .gallery-header{text-align:center;margin-bottom:60px}
 .gallery-header .section-desc{margin:0 auto}
-.gallery-grid-modern{display:flex;flex-direction:column;gap:20px}
-.gallery-row{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
-.gallery-row .gallery-photo{flex:1;min-width:0}.gallery-photos-stack{display:flex;flex-direction:column;gap:20px}
-.gallery-photo{position:relative;overflow:hidden;border:1px solid var(--border);background:var(--bg-elevated)}
-.gallery-photo img{width:100%;height:auto;display:block;transition:transform .6s var(--ease-out-expo);filter:saturate(.85)}
-.gallery-photo:hover img{transform:scale(1.03);filter:saturate(1)}
-.gallery-photo-caption{position:absolute;bottom:0;left:0;right:0;padding:20px 16px 12px;background:linear-gradient(transparent,rgba(12,12,12,.75));font-size:.72rem;color:var(--text-secondary);letter-spacing:.05em;opacity:0;transition:opacity .4s ease}
-.gallery-photo:hover .gallery-photo-caption{opacity:1}
+.gallery-masonry{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+  max-width:900px;
+  margin:0 auto;
+}
+.gallery-card{
+  display:flex;
+  flex-direction:column;
+}
+.gallery-card-tall{grid-row:span 2}
+.gallery-card-wide{grid-column:span 2}
+.gallery-card-small .card-frame{aspect-ratio:4/3}
+.card-frame{
+  position:relative;
+  background:var(--bg-elevated);
+  border:1px solid var(--border);
+  border-radius:6px;
+  overflow:hidden;
+  transition:all .5s var(--ease-out-expo);
+  box-shadow:0 2px 12px rgba(0,0,0,.3);
+}
+.card-frame::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  border:1px solid rgba(255,255,255,.04);
+  border-radius:6px;
+  pointer-events:none;
+  z-index:1;
+}
+.card-frame img{
+  width:100%;
+  height:auto;
+  display:block;
+  transition:transform .6s var(--ease-out-expo), filter .4s ease;
+  filter:saturate(.8) brightness(.95);
+}
+.gallery-card:hover .card-frame{
+  border-color:var(--border-gold);
+  box-shadow:0 8px 32px rgba(196,162,101,.1);
+  transform:translateY(-4px);
+}
+.gallery-card:hover .card-frame img{
+  transform:scale(1.03);
+  filter:saturate(1) brightness(1);
+}
+.card-meta{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-top:10px;
+  padding:0 2px;
+}
+.card-tag{
+  font-size:.68rem;
+  font-weight:600;
+  letter-spacing:.1em;
+  color:var(--gold);
+  text-transform:uppercase;
+}
+.card-date{
+  font-size:.62rem;
+  color:var(--text-tertiary);
+  letter-spacing:.04em;
+  font-style:italic;
+}
 
 /* Contact */
 .contact-section{padding:60px 0 60px;background:var(--bg);text-align:center;position:relative}
@@ -373,46 +433,36 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   .project-tags .tag{font-size:.55rem;padding:3px 8px}
   .project-link{font-size:.7rem}
   
-  /* Life Gallery - compact, smaller photos with design treatment */
+  /* Life Gallery - single column, compact frames */
   .life-gallery{padding:32px 0 20px}
   .gallery-header{margin-bottom:24px}
-  .gallery-grid-modern{
-    display:grid!important;
+  .gallery-masonry{
     grid-template-columns:1fr 1fr!important;
-    gap:10px!important;
+    gap:14px!important;
   }
-  .gallery-row{
-    display:contents!important;
+  .gallery-card-tall,
+  .gallery-card-wide,
+  .gallery-card-small{
+    grid-row:auto!important;
+    grid-column:auto!important;
   }
-  .gallery-photos-stack{
-    display:contents!important;
-  }
-  .gallery-photo{
-    width:100%!important;
-    min-height:auto!important;
-    border:1px solid var(--border)!important;
-    background:var(--bg-elevated)!important;
+  .card-frame{
     border-radius:4px!important;
-    overflow:hidden!important;
-    position:relative!important;
+    box-shadow:none!important;
   }
-  .gallery-photo img{
+  .card-frame img{
     width:100%!important;
     height:auto!important;
-    max-height:200px!important;
-    object-fit:contain!important;
     display:block!important;
-    margin:0!important;
-    padding:0!important;
-    filter:saturate(.85);
-    transition:transform .4s ease, filter .4s ease;
   }
-  .gallery-photo:hover img{
-    transform:scale(1.02);
-    filter:saturate(1);
+  .card-meta{
+    margin-top:8px!important;
   }
-  .gallery-photo-caption{
-    display:none!important;
+  .card-tag{
+    font-size:.6rem!important;
+  }
+  .card-date{
+    font-size:.55rem!important;
   }
   
   /* Contact */
@@ -862,33 +912,55 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
       <h2 class="section-title reveal reveal-delay-1">工作之外</h2>
       <p class="section-desc reveal reveal-delay-2">热爱探索，保持好奇。生活中的每一次出发，都是灵感的来源。</p>
     </div>
-    <div class="gallery-grid-modern">
-      <!-- Row 1: Two portraits side by side -->
-      <div class="gallery-row">
-        <div class="gallery-photo reveal">
+    <div class="gallery-masonry">
+      <!-- Card 1: Tall portrait with white border frame -->
+      <div class="gallery-card gallery-card-tall reveal">
+        <div class="card-frame">
           <img src="life_1.jpg" alt="旅行途中">
-          <div class="gallery-photo-caption">旅行</div>
         </div>
-        <div class="gallery-photo reveal reveal-delay-1">
-          <img src="life_2.jpg" alt="沿途风景">
-          <div class="gallery-photo-caption">沿途</div>
+        <div class="card-meta">
+          <span class="card-tag">旅行</span>
+          <span class="card-date">On the road</span>
         </div>
       </div>
-      <!-- Row 2: Portrait + Landscape side by side -->
-      <div class="gallery-row">
-        <div class="gallery-photo reveal">
-          <img src="life_3.jpg" alt="生活瞬间">
-          <div class="gallery-photo-caption">生活</div>
+      <!-- Card 2: Standard portrait -->
+      <div class="gallery-card reveal reveal-delay-1">
+        <div class="card-frame">
+          <img src="life_2.jpg" alt="沿途风景">
         </div>
-        <div class="gallery-photos-stack reveal reveal-delay-1">
-          <div class="gallery-photo">
-            <img src="life_4.jpg" alt="被遗忘的时光">
-            <div class="gallery-photo-caption">时光</div>
-          </div>
-          <div class="gallery-photo">
-            <img src="life_5.jpg" alt="对镜自拍">
-            <div class="gallery-photo-caption">日常</div>
-          </div>
+        <div class="card-meta">
+          <span class="card-tag">沿途</span>
+          <span class="card-date">Scenery</span>
+        </div>
+      </div>
+      <!-- Card 3: Wide landscape -->
+      <div class="gallery-card gallery-card-wide reveal">
+        <div class="card-frame">
+          <img src="life_3.jpg" alt="生活瞬间">
+        </div>
+        <div class="card-meta">
+          <span class="card-tag">生活</span>
+          <span class="card-date">Moments</span>
+        </div>
+      </div>
+      <!-- Card 4: Small square-ish -->
+      <div class="gallery-card gallery-card-small reveal reveal-delay-1">
+        <div class="card-frame">
+          <img src="life_4.jpg" alt="被遗忘的时光">
+        </div>
+        <div class="card-meta">
+          <span class="card-tag">时光</span>
+          <span class="card-date">Forgotten</span>
+        </div>
+      </div>
+      <!-- Card 5: Medium portrait -->
+      <div class="gallery-card reveal">
+        <div class="card-frame">
+          <img src="life_5.jpg" alt="对镜自拍">
+        </div>
+        <div class="card-meta">
+          <span class="card-tag">日常</span>
+          <span class="card-date">Daily</span>
         </div>
       </div>
     </div>
