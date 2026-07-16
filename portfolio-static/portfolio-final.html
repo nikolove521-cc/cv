@@ -165,6 +165,13 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   max-width:900px;
   margin:0 auto;
 }
+/* Desktop: compact gallery with constrained sizes */
+.gallery-masonry{max-width:720px}
+.card-frame{max-height:260px}
+.gallery-card-tall .card-frame{max-height:540px}
+.gallery-card-wide .card-frame{max-height:240px}
+.gallery-card-small .card-frame{max-height:200px}
+
 .gallery-card{
   display:flex;
   flex-direction:column;
@@ -177,7 +184,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   background:var(--bg-elevated);
   border:1px solid var(--border);
   border-radius:6px;
-  overflow:hidden;
+  overflow:visible;
   transition:all .5s var(--ease-out-expo);
   box-shadow:0 2px 12px rgba(0,0,0,.3);
 }
