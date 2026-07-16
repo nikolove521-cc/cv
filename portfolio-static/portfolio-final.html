@@ -122,10 +122,11 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .carousel-visual{position:relative;width:100%;height:100%;overflow:hidden}
 .carousel-track{display:flex;height:100%;transition:transform .5s var(--ease-out-expo)}
 .carousel-slide{min-width:100%;height:100%;display:flex;align-items:center;justify-content:center;position:relative}
-.carousel-slide img{width:100%;height:100%;object-fit:cover}
+.carousel-slide img{width:100%;height:100%;object-fit:contain;padding:12px}
 .carousel-nav{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:5}
 .carousel-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.3);cursor:pointer;transition:all .3s ease}
 .carousel-dot.active{background:var(--gold);border-color:var(--gold);width:24px;border-radius:4px}
+@media(min-width:1025px){.carousel-slide img{object-fit:cover;padding:0}}
 /* Abstract Card */
 .abstract-card{width:100%;height:100%;position:relative;overflow:hidden}
 .abstract-card-bg{position:absolute;inset:0}
@@ -212,60 +213,211 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   .nav-cta-mobile:hover{border-color:var(--gold);color:var(--gold)}
 }
 @media(max-width:1024px){
-  .container{padding:0 48px}
-  .about-layout{grid-template-columns:1fr;gap:60px}
-  .about-portrait{max-width:360px;margin:0 auto}
+  .container{padding:0 40px}
+  .about-layout{grid-template-columns:1fr;gap:50px}
+  .about-portrait{max-width:300px;margin:0 auto}
   .skills-grid{grid-template-columns:repeat(2,1fr)}
   .project-featured,.project-standard{grid-template-columns:1fr}
-  .project-visual{min-height:280px}
-  .project-details{padding:32px 32px!important}
-  .navbar{padding:0 48px}
-  .gallery-row{grid-template-columns:1fr!important}
-  .gallery-photos-stack{flex-direction:row!important;gap:20px}
-}
-@media(max-width:768px){
-  .container{padding:0 20px}
-  .navbar{padding:0 20px;height:60px}
-  .navbar-brand{font-size:.95rem}
-  .navbar-links{display:none}
-  .navbar-cta{padding:8px 16px;font-size:.7rem}
-  .hero-content{padding:0 20px}
-  .hero-subtitle br{display:none}
-  .hero-actions{flex-direction:column;gap:12px}
-  .hero-actions .btn-primary,.hero-actions .btn-secondary{width:100%;justify-content:center}
-  .about{padding:100px 0}
-  .about-metrics{grid-template-columns:1fr;gap:24px}
-  .metric{padding-right:0;padding-bottom:20px;border-bottom:1px solid var(--border)}
-  .metric:last-child{padding-bottom:0;border-bottom:none}
-  .experience{padding:100px 0}
-  .timeline{padding-left:32px}
-  .timeline::before{left:0}
-  .timeline-item{padding-left:24px;padding-bottom:48px}
-  .skills{padding:100px 0}
-  .skills-grid{grid-template-columns:1fr;gap:16px}
-  .skill-card{padding:28px 24px}
-  .projects{padding:100px 0}
-  .projects-header{flex-direction:column;gap:20px;align-items:flex-start!important}
-  .projects-header .section-desc{margin-left:0!important;text-align:left!important}
-  .project-standard .project-visual{min-height:220px}
-  .project-standard .project-details{padding:24px 20px!important}
-  .project-featured .project-visual{min-height:220px}
-  .project-featured .project-details{padding:24px 20px!important}
-  .life-gallery{padding:60px 0 30px}
+  .project-visual{min-height:320px}
+  .project-details{padding:28px 28px!important}
+  .navbar{padding:0 40px}
   .gallery-row{grid-template-columns:1fr!important}
   .gallery-photos-stack{flex-direction:column!important;gap:20px}
-  .gallery-photo{min-height:auto}
-  .contact-section{padding:60px 0 80px}
-  .contact-methods{flex-direction:column;gap:24px}
-  .contact-email-btn{padding:16px 36px;font-size:.8rem;width:100%;justify-content:center}
-  .footer{flex-direction:column;gap:8px;text-align:center}
-  .lightbox-close{top:12px;right:12px;width:36px;height:36px;font-size:1.1rem}
-  .lightbox-arrow{width:40px;height:40px;font-size:1rem}
-  .lightbox-arrow.prev{left:8px}
-  .lightbox-arrow.next{right:8px}
-  .lightbox-carousel-visual{width:95vw;height:55vh}
-  .lightbox-project-info{bottom:16px}
-  .lightbox-project-info .lb-title{font-size:.95rem}
+  .project-featured.reverse .project-visual,
+  .project-featured.reverse .project-details,
+  .project-standard.reverse .project-visual,
+  .project-standard.reverse .project-details{
+    direction:ltr!important;
+  }
+}
+@media(max-width:768px){
+  /* Container & Nav */
+  .container{padding:0 16px}
+  .navbar{padding:0 16px;height:56px}
+  .navbar-brand{font-size:.9rem}
+  .navbar-links{display:none}
+  .navbar-cta{padding:6px 12px;font-size:.65rem}
+  .hero-content{padding:0 16px}
+  .hero-subtitle br{display:none}
+  .hero-actions{flex-direction:column;gap:12px}
+  .hero-actions .btn-primary,.hero-actions .btn-secondary{width:100%;justify-content:center;padding:12px 24px;font-size:.75rem}
+  
+  /* Hero */
+  .hero{min-height:100svh}
+  .hero-title{font-size:2rem}
+  .hero-subtitle{font-size:.85rem}
+  .hero-greeting{font-size:.65rem;margin-bottom:16px}
+  .hero-scroll{bottom:20px}
+  
+  /* About */
+  .about{padding:80px 0}
+  .about-layout{gap:40px}
+  .about-portrait{max-width:260px;margin:0 auto}
+  .portrait-number{font-size:3rem;top:-10px;left:-10px}
+  .portrait-accent{width:70px;height:70px;bottom:-10px;right:-10px}
+  .about-name{font-size:1.5rem}
+  .about-role{font-size:.8rem;margin-bottom:24px}
+  .about-text{font-size:.85rem;line-height:1.8;margin-bottom:32px}
+  .about-metrics{padding:24px 0;gap:20px}
+  .about-metrics{grid-template-columns:1fr;gap:20px}
+  .metric{padding-right:0;padding-bottom:16px}
+  .metric:last-child{padding-bottom:0}
+  .metric-value{font-size:1.5rem}
+  .metric-label{font-size:.7rem}
+  .about-contact{gap:10px}
+  .contact-row{font-size:.8rem}
+  
+  /* Experience */
+  .experience{padding:80px 0}
+  .exp-header{margin-bottom:60px}
+  .timeline{padding-left:24px}
+  .timeline::before{left:0}
+  .timeline-item{padding-left:20px;padding-bottom:40px}
+  .timeline-dot{left:-4px;top:6px;width:8px;height:8px}
+  .timeline-period{font-size:.6rem;margin-bottom:6px}
+  .timeline-company{font-size:1.05rem}
+  .timeline-role{font-size:.8rem;margin-bottom:12px}
+  .timeline-desc{font-size:.8rem;margin-bottom:12px}
+  .timeline-tags{gap:6px}
+  .tag{font-size:.6rem;padding:4px 10px}
+  
+  /* Skills */
+  .skills{padding:80px 0}
+  .skills-grid{grid-template-columns:1fr;gap:12px}
+  .skill-card{padding:20px 18px}
+  .skill-icon{width:36px;height:36px;font-size:.9rem}
+  .skill-card h4{font-size:.85rem;margin-bottom:4px}
+  .skill-card p{font-size:.75rem}
+  
+  /* Projects - KEY FIXES */
+  .projects{padding:80px 0}
+  .projects-header{flex-direction:column;gap:16px;align-items:flex-start;margin-bottom:48px}
+  .projects-header .section-desc{margin-left:0!important;text-align:left!important;max-width:100%}
+  .project-grid{gap:20px}
+  
+  /* All project cards - full width stacked */
+  .project-featured,.project-standard{
+    grid-template-columns:1fr!important;
+    gap:0!important;
+  }
+  .project-featured.reverse,.project-standard.reverse{
+    direction:ltr!important;
+  }
+  .project-featured.reverse .project-visual,
+  .project-featured.reverse .project-details,
+  .project-standard.reverse .project-visual,
+  .project-standard.reverse .project-details{
+    direction:ltr!important;
+  }
+  
+  /* Project visual - tall enough for full images */
+  .project-visual{
+    min-height:360px!important;
+    overflow:hidden;
+  }
+  .project-visual .carousel-visual{
+    height:100%!important;
+  }
+  .project-visual .carousel-slide img{
+    object-fit:contain!important;
+    padding:8px!important;
+    max-height:340px;
+  }
+  
+  /* Project details - compact on mobile */
+  .project-details{
+    padding:20px 16px!important;
+  }
+  .project-type{font-size:.6rem;margin-bottom:8px}
+  .project-title{font-size:1.1rem!important;margin-bottom:8px!important}
+  .project-desc{font-size:.78rem;line-height:1.6!important;margin-bottom:16px!important}
+  .project-tags{gap:6px!important;margin-bottom:16px!important}
+  .project-tags .tag{font-size:.58rem;padding:4px 8px}
+  .project-link{font-size:.72rem}
+  
+  /* Life Gallery - single column, full width */
+  .life-gallery{padding:40px 0 32px}
+  .gallery-header{margin-bottom:28px}
+  .gallery-grid-modern{gap:12px}
+  .gallery-row{
+    grid-template-columns:1fr!important;
+    gap:12px!important;
+  }
+  .gallery-photos-stack{
+    flex-direction:column!important;
+    gap:12px!important;
+  }
+  .gallery-photo{
+    width:100%!important;
+    min-height:auto!important;
+    border:1px solid var(--border)!important;
+  }
+  .gallery-photo img{
+    width:100%!important;
+    height:auto!important;
+    display:block!important;
+    margin:0!important;
+    padding:0!important;
+  }
+  .gallery-photo-caption{display:none}
+  
+  /* Project carousel - ensure full visibility on mobile */
+  .project-visual{
+    width:100%!important;
+    overflow:visible!important;
+  }
+  .project-visual .carousel-visual{
+    width:100%!important;
+    height:auto!important;
+    aspect-ratio:16/10!important;
+    overflow:visible!important;
+  }
+  .project-visual .carousel-track{
+    height:auto!important;
+  }
+  .project-visual .carousel-slide{
+    height:auto!important;
+    min-height:auto!important;
+  }
+  .project-visual .carousel-slide img{
+    width:100%!important;
+    height:auto!important;
+    max-height:none!important;
+    object-fit:contain!important;
+    padding:6px!important;
+    display:block!important;
+  }
+  
+  /* Contact */
+  .contact-section{padding:60px 0 60px}
+  .contact-big-title{font-size:1.6rem}
+  .contact-methods{flex-direction:column;gap:20px}
+  .contact-email-btn{
+    padding:14px 28px;
+    font-size:.75rem;
+    width:100%;
+    justify-content:center;
+  }
+  .contact-info-grid{
+    grid-template-columns:1fr!important;
+    gap:16px!important;
+  }
+  .contact-info-item{
+    padding:16px!important;
+  }
+  
+  /* Footer */
+  .footer{flex-direction:column;gap:6px;text-align:center}
+  
+  /* Lightbox */
+  .lightbox-close{top:8px;right:8px;width:32px;height:32px;font-size:.9rem}
+  .lightbox-arrow{width:32px;height:32px;font-size:.85rem}
+  .lightbox-arrow.prev{left:4px}
+  .lightbox-arrow.next{right:4px}
+  .lightbox-carousel-visual{width:98vw;height:50vh}
+  .lightbox-project-info{bottom:8px}
+  .lightbox-project-info .lb-title{font-size:.85rem}
+  .lightbox-project-info .lb-type{font-size:.6rem}
 }
 @media(max-width:480px){
   .hero-title{font-size:2.2rem}
@@ -297,6 +449,14 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .lightbox-project-info{position:fixed;bottom:32px;left:50%;transform:translateX(-50%);text-align:center;z-index:10001}
 .lightbox-project-info .lb-title{font-family:var(--serif);font-size:1.15rem;color:var(--text-primary);margin-bottom:4px}
 .lightbox-project-info .lb-type{font-size:.7rem;color:var(--gold);letter-spacing:.15em;text-transform:uppercase}
+/* Force LTR for reverse project cards on mobile */
+@media(max-width:768px){
+  .project-featured.reverse,.project-standard.reverse{direction:ltr!important}
+  .project-featured.reverse .project-visual,
+  .project-featured.reverse .project-details,
+  .project-standard.reverse .project-visual,
+  .project-standard.reverse .project-details{direction:ltr!important}
+}
 </style>
 </head>
 <body>
@@ -451,15 +611,15 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         <div class="project-visual">
           <div class="carousel-visual" data-carousel="datu">
             <div class="carousel-track">
-              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p1.png" alt="达兔AI 方案页1"></div>
-              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p4.png" alt="达兔AI 方案页4"></div>
-              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p6.png" alt="达兔AI 方案页6"></div>
-              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p10.png" alt="达兔AI 方案页10"></div>
-              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p12.png" alt="达兔AI 方案页12"></div>
-              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p13.png" alt="达兔AI 方案页13"></div>
-              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p14.png" alt="达兔AI 方案页14"></div>
-              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p18.png" alt="达兔AI 方案页18"></div>
-              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p27.png" alt="达兔AI 方案页27"></div>
+              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p1.jpg" alt="达兔AI 方案页1"></div>
+              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p4.jpg" alt="达兔AI 方案页4"></div>
+              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p6.jpg" alt="达兔AI 方案页6"></div>
+              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p10.jpg" alt="达兔AI 方案页10"></div>
+              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p12.jpg" alt="达兔AI 方案页12"></div>
+              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p13.jpg" alt="达兔AI 方案页13"></div>
+              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p14.jpg" alt="达兔AI 方案页14"></div>
+              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p18.jpg" alt="达兔AI 方案页18"></div>
+              <div class="carousel-slide"><img src="ppt-cases/达兔AI_p27.jpg" alt="达兔AI 方案页27"></div>
             </div>
             <div class="carousel-nav">
               <span class="carousel-dot active"></span>
@@ -488,10 +648,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         <div class="project-visual">
           <div class="carousel-visual" data-carousel="echo">
             <div class="carousel-track">
-              <div class="carousel-slide"><img src="ppt-cases/ECHOEGROUP_p2.png" alt="ECHOEGROUP 方案页2"></div>
-              <div class="carousel-slide"><img src="ppt-cases/ECHOEGROUP_p3.png" alt="ECHOEGROUP 方案页3"></div>
-              <div class="carousel-slide"><img src="ppt-cases/ECHOEGROUP_p4.png" alt="ECHOEGROUP 方案页4"></div>
-              <div class="carousel-slide"><img src="ppt-cases/ECHOEGROUP_p5.png" alt="ECHOEGROUP 方案页5"></div>
+              <div class="carousel-slide"><img src="ppt-cases/ECHOEGROUP_p2.jpg" alt="ECHOEGROUP 方案页2"></div>
+              <div class="carousel-slide"><img src="ppt-cases/ECHOEGROUP_p3.jpg" alt="ECHOEGROUP 方案页3"></div>
+              <div class="carousel-slide"><img src="ppt-cases/ECHOEGROUP_p4.jpg" alt="ECHOEGROUP 方案页4"></div>
+              <div class="carousel-slide"><img src="ppt-cases/ECHOEGROUP_p5.jpg" alt="ECHOEGROUP 方案页5"></div>
             </div>
             <div class="carousel-nav">
               <span class="carousel-dot active"></span>
@@ -515,11 +675,11 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         <div class="project-visual">
           <div class="carousel-visual" data-carousel="meizhuang">
             <div class="carousel-track">
-              <div class="carousel-slide"><img src="ppt-cases/美妆小红书_p1.png" alt="美妆赛道 方案页1"></div>
-              <div class="carousel-slide"><img src="ppt-cases/美妆小红书_p2.png" alt="美妆赛道 方案页2"></div>
-              <div class="carousel-slide"><img src="ppt-cases/美妆小红书_p3.png" alt="美妆赛道 方案页3"></div>
-              <div class="carousel-slide"><img src="ppt-cases/美妆小红书_p4.png" alt="美妆赛道 方案页4"></div>
-              <div class="carousel-slide"><img src="ppt-cases/美妆小红书_p5.png" alt="美妆赛道 方案页5"></div>
+              <div class="carousel-slide"><img src="ppt-cases/美妆小红书_p1.jpg" alt="美妆赛道 方案页1"></div>
+              <div class="carousel-slide"><img src="ppt-cases/美妆小红书_p2.jpg" alt="美妆赛道 方案页2"></div>
+              <div class="carousel-slide"><img src="ppt-cases/美妆小红书_p3.jpg" alt="美妆赛道 方案页3"></div>
+              <div class="carousel-slide"><img src="ppt-cases/美妆小红书_p4.jpg" alt="美妆赛道 方案页4"></div>
+              <div class="carousel-slide"><img src="ppt-cases/美妆小红书_p5.jpg" alt="美妆赛道 方案页5"></div>
             </div>
             <div class="carousel-nav">
               <span class="carousel-dot active"></span>
@@ -544,16 +704,16 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         <div class="project-visual">
           <div class="carousel-visual" data-carousel="canban">
             <div class="carousel-track">
-              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p1.png" alt="参半 方案页1"></div>
-              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p2.png" alt="参半 方案页2"></div>
-              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p3.png" alt="参半 方案页3"></div>
-              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p4.png" alt="参半 方案页4"></div>
-              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p5.png" alt="参半 方案页5"></div>
-              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p6.png" alt="参半 方案页6"></div>
-              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p7.png" alt="参半 方案页7"></div>
-              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p8.png" alt="参半 方案页8"></div>
-              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p9.png" alt="参半 方案页9"></div>
-              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p10.png" alt="参半 方案页10"></div>
+              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p1.jpg" alt="参半 方案页1"></div>
+              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p2.jpg" alt="参半 方案页2"></div>
+              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p3.jpg" alt="参半 方案页3"></div>
+              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p4.jpg" alt="参半 方案页4"></div>
+              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p5.jpg" alt="参半 方案页5"></div>
+              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p6.jpg" alt="参半 方案页6"></div>
+              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p7.jpg" alt="参半 方案页7"></div>
+              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p8.jpg" alt="参半 方案页8"></div>
+              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p9.jpg" alt="参半 方案页9"></div>
+              <div class="carousel-slide"><img src="ppt-cases/canban/canban_p10.jpg" alt="参半 方案页10"></div>
             </div>
             <div class="carousel-nav">
               <span class="carousel-dot active"></span>
@@ -583,10 +743,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         <div class="project-visual">
           <div class="carousel-visual" data-carousel="huawei">
             <div class="carousel-track">
-              <div class="carousel-slide"><img src="ppt-cases/huawei_eco/huawei_eco_p1.png" alt="华为生态 方案页1"></div>
-              <div class="carousel-slide"><img src="ppt-cases/huawei_eco/huawei_eco_p2.png" alt="华为生态 方案页2"></div>
-              <div class="carousel-slide"><img src="ppt-cases/huawei_eco/huawei_eco_p3.png" alt="华为生态 方案页3"></div>
-              <div class="carousel-slide"><img src="ppt-cases/huawei_eco/huawei_eco_p4.png" alt="华为生态 方案页4"></div>
+              <div class="carousel-slide"><img src="ppt-cases/huawei_eco/huawei_eco_p1.jpg" alt="华为生态 方案页1"></div>
+              <div class="carousel-slide"><img src="ppt-cases/huawei_eco/huawei_eco_p2.jpg" alt="华为生态 方案页2"></div>
+              <div class="carousel-slide"><img src="ppt-cases/huawei_eco/huawei_eco_p3.jpg" alt="华为生态 方案页3"></div>
+              <div class="carousel-slide"><img src="ppt-cases/huawei_eco/huawei_eco_p4.jpg" alt="华为生态 方案页4"></div>
             </div>
             <div class="carousel-nav">
               <span class="carousel-dot active"></span>

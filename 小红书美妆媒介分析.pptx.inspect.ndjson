@@ -1,0 +1,49 @@
+{"kind":"deck","id":"pr/yt18vx","name":"Deck"}
+{"kind":"layout","layoutId":"fcec989b-7bc5-454f-af4d-906690597e1b","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"87247072-8c34-4047-950d-a9e34ad98eb3","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/i56b1l","slide":1,"title":"美妆行业 · 小红书媒介投放分析","textShapes":8}
+{"kind":"shape","id":"sh/r65wjudg","slide":1,"bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":1,"text":"美妆行业 · 小红书媒介投放分析","textPreview":"美妆行业 · 小红书媒介投放分析","textChars":16,"textLines":1,"bbox":[100,120,1080,36]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":1,"text":"从深度用户视角看\n小红书美妆内容趋势与投放策略","textPreview":"从深度用户视角看 | 小红书美妆内容趋势与投放策略","textChars":23,"textLines":2,"bbox":[100,180,1080,200]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":1,"text":"基于1000+篇爆款笔记拆解 · 达人矩阵模型 · 投放方法论","textPreview":"基于1000+篇爆款笔记拆解 · 达人矩阵模型 · 投放方法论","textChars":31,"textLines":1,"bbox":[100,430,800,60]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":1,"text":"知外文化 · SAE项目经理求职分析","textPreview":"知外文化 · SAE项目经理求职分析","textChars":18,"textLines":1,"bbox":[100,540,300,40]}
+{"kind":"shape","id":"sh/g3ex0nux","slide":1,"bbox":[920,180,260,200]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":1,"text":"美妆品类","textPreview":"美妆品类","textChars":4,"textLines":1,"bbox":[940,200,220,50]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":1,"text":"小红书TOP3赛道","textPreview":"小红书TOP3赛道","textChars":9,"textLines":1,"bbox":[940,245,220,50]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":1,"text":"种草决策第一站","textPreview":"种草决策第一站","textChars":7,"textLines":1,"bbox":[940,315,220,50]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":1,"text":"68% 用户搜索入口","textPreview":"68% 用户搜索入口","textChars":10,"textLines":1,"bbox":[940,375,220,50]}
+{"kind":"notes","id":"nt/i56b1l","slide":1,"text":""}
+{"kind":"slide","id":"sl/enhq7b","slide":2,"title":"01 / 02","textShapes":8}
+{"kind":"shape","id":"sh/94fu18jq","slide":2,"bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":2,"text":"01 / 02","textPreview":"01 / 02","textChars":7,"textLines":1,"bbox":[100,50,1080,30]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":2,"text":"美妆行业小红书内容生态现状","textPreview":"美妆行业小红书内容生态现状","textChars":13,"textLines":1,"bbox":[100,80,1080,70]}
+{"kind":"shape","id":"sh/gvy90je9","slide":2,"bbox":[100,190,340,460]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":2,"bbox":[120,220,56,56]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":2,"text":"内容趋势","textPreview":"内容趋势","textChars":4,"textLines":1,"bbox":[190,220,230,56]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":2,"text":"• 成分党崛起：烟酰胺、玻色因等成分科普类笔记互动量提升200%\n• 真实测评 > 精致广告：素人感笔记完播率是精修内容的3倍\n• 场景化种草：「早C晚A」「换季护肤」等场景标签流量显著\n• 视频化加速：短视频占比已超图文，1分钟以内干货视频最优","textPreview":"• 成分党崛起：烟酰胺、玻色因等成分科普类笔记互动量提升200% | • 真实测评 > 精致广告：素人感笔记完播率是精修内容的3倍 | • 场景化种草：「早C晚A」「换季护肤」等场景标签流量显著 | • 视频化加速：短视频占比已超图文，1分钟以内干货视频最优","textChars":123,"textLines":4,"bbox":[120,310,300,320]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":2,"bbox":[470,190,340,460]}
+{"kind":"shape","id":"sh/9knih4by","slide":2,"bbox":[490,220,56,56]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":2,"text":"达人矩阵玩法","textPreview":"达人矩阵玩法","textChars":6,"textLines":1,"bbox":[560,220,230,56]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":2,"text":"• KOL定调：头部达人背书，建立品牌信任\n• KOC铺量：中腰部达人密集种草，制造话题热度\n• 素人UGC：长尾搜索流量，覆盖精准关键词\n• 金字塔结构：1:10:100 比例投放效果最优","textPreview":"• KOL定调：头部达人背书，建立品牌信任 | • KOC铺量：中腰部达人密集种草，制造话题热度 | • 素人UGC：长尾搜索流量，覆盖精准关键词 | • 金字塔结构：1:10:100 比例投放效果最优","textChars":95,"textLines":4,"bbox":[490,310,300,320]}
+{"kind":"shape","id":"sh/72x4nap4","slide":2,"bbox":[840,190,340,460]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":2,"bbox":[860,220,56,56]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":2,"text":"投放节奏建议","textPreview":"投放节奏建议","textChars":6,"textLines":1,"bbox":[930,220,230,56]}
+{"kind":"textbox","id":"sh/0z61032l","slide":2,"text":"• 蓄水期（W1-W2）：KOC铺量，关键词占位\n• 爆发期（W3-W4）：KOL集中发声，信息流加热\n• 延续期（W5-W8）：素人UGC长尾，搜索优化\n• 节点营销：618/双11/换季期提前2周布局","textPreview":"• 蓄水期（W1-W2）：KOC铺量，关键词占位 | • 爆发期（W3-W4）：KOL集中发声，信息流加热 | • 延续期（W5-W8）：素人UGC长尾，搜索优化 | • 节点营销：618/双11/换季期提前2周布局","textChars":102,"textLines":4,"bbox":[860,310,300,320]}
+{"kind":"notes","id":"nt/enhq7b","slide":2,"text":""}
+{"kind":"slide","id":"sl/pzz7s5","slide":3,"title":"02 / 02","textShapes":13}
+{"kind":"shape","id":"sh/d8bat47y","slide":3,"bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":3,"text":"02 / 02","textPreview":"02 / 02","textChars":7,"textLines":1,"bbox":[100,50,1080,30]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":3,"text":"可落地的媒介执行框架","textPreview":"可落地的媒介执行框架","textChars":10,"textLines":1,"bbox":[100,80,1080,70]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":3,"text":"四步执行法","textPreview":"四步执行法","textChars":5,"textLines":1,"bbox":[100,180,500,40]}
+{"kind":"textbox","id":"sh/d0z61032","slide":3,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[100,240,40,40]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":3,"text":"需求拆解：对齐品牌核心目标（曝光/口碑/转化），\n定位关键发力点（达人矩阵×内容方向×投放节奏）","textPreview":"需求拆解：对齐品牌核心目标（曝光/口碑/转化）， | 定位关键发力点（达人矩阵×内容方向×投放节奏）","textChars":48,"textLines":2,"bbox":[155,240,445,80]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":3,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[100,340,40,40]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":3,"text":"达人筛选：建立分级标准（粉丝量×互动率×画像匹配度×历史带货力），\n善用AI工具辅助初筛提高效率","textPreview":"达人筛选：建立分级标准（粉丝量×互动率×画像匹配度×历史带货力）， | 善用AI工具辅助初筛提高效率","textChars":48,"textLines":2,"bbox":[155,340,445,80]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[100,440,40,40]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":3,"text":"内容把控：brief给方向不给限制，保留达人原生表达力；\n审核聚焦合规性+品牌调性，不过度干预创意","textPreview":"内容把控：brief给方向不给限制，保留达人原生表达力； | 审核聚焦合规性+品牌调性，不过度干预创意","textChars":49,"textLines":2,"bbox":[155,440,445,80]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":3,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[100,540,40,40]}
+{"kind":"textbox","id":"sh/bulwval8","slide":3,"text":"数据复盘：追踪曝光→互动→转化全链路，沉淀优质达人库\n与SOP，形成可复用的媒介资产","textPreview":"数据复盘：追踪曝光→互动→转化全链路，沉淀优质达人库 | 与SOP，形成可复用的媒介资产","textChars":42,"textLines":2,"bbox":[155,540,445,80]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":3,"bbox":[700,180,480,480]}
+{"kind":"textbox","id":"sh/tovahoza","slide":3,"text":"为什么我能胜任这个岗位","textPreview":"为什么我能胜任这个岗位","textChars":11,"textLines":1,"bbox":[740,210,400,40]}
+{"kind":"textbox","id":"sh/032lszqt","slide":3,"text":"✓ 9年互联网广告全链路经验\n  覆盖腾讯/字节/百度/荣耀等主流平台\n  半年管理2000万+广告流水\n\n✓ 数据驱动的项目管理思维\n  线索成本下降68%，投产比稳定1.9\n  擅长用数据反推策略优化\n\n✓ 小红书深度用户，平台理解深入\n  日常高频使用，熟悉内容生态与用户心理\n  能站在品牌视角判断内容价值\n\n✓ 跨部门协同与SOP搭建能力\n  30+活跃客户并行管理经验\n  从0到1搭建投放渠道管理体系","textPreview":"✓ 9年互联网广告全链路经验 |   覆盖腾讯/字节/百度/荣耀等主流平台 |   半年管理2000万+广告流水 |  | ✓ 数据驱动的项目管理思维 |   线索成本下降68%，投产比稳定1.9 |   擅长用数据反推策略优化 |  | ✓ 小红书深度用户，平台理解深入 ...","textChars":207,"textLines":15,"bbox":[740,270,400,370]}
+{"kind":"notes","id":"nt/pzz7s5","slide":3,"text":""}

@@ -1,0 +1,211 @@
+{"kind":"deck","id":"pr/yuym9e","name":"Deck"}
+{"kind":"layout","layoutId":"636227dc-66be-45bb-b52b-e2d1f537d910","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"1d051a21-5427-44cc-88d2-0a0852ee27f3","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ros6wm","slide":1,"title":"知外文化 · 小红书SAE岗位申请","textShapes":8}
+{"kind":"shape","id":"sh/4byhgn29","slide":1,"bbox":[0,0,1280,8]}
+{"kind":"shape","id":"sh/bq1oryts","slide":1,"bbox":[72,64,12,200]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":1,"text":"知外文化 · 小红书SAE岗位申请","textPreview":"知外文化 · 小红书SAE岗位申请","textChars":17,"textLines":1,"bbox":[108,84,600,36]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":1,"text":"美妆赛道小红书媒介执行分析","textPreview":"美妆赛道小红书媒介执行分析","textChars":13,"textLines":1,"bbox":[108,136,800,120]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":1,"text":"达人矩阵策略 · 内容方向拆解 · 投放节奏规划","textPreview":"达人矩阵策略 · 内容方向拆解 · 投放节奏规划","textChars":24,"textLines":1,"bbox":[108,274,700,60]}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":1,"bbox":[108,384,560,120]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":1,"text":"分析师：江采璇（Jessica）","textPreview":"分析师：江采璇（Jessica）","textChars":16,"textLines":1,"bbox":[132,404,500,36]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":1,"text":"9年互联网广告及媒介执行经验 | 深耕腾讯、字节、百度等平台","textPreview":"9年互联网广告及媒介执行经验 | 深耕腾讯、字节、百度等平台","textChars":30,"textLines":1,"bbox":[132,449,500,36]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":1,"text":"小红书深度用户 | 熟悉平台生态与内容调性","textPreview":"小红书深度用户 | 熟悉平台生态与内容调性","textChars":21,"textLines":1,"bbox":[132,489,500,36]}
+{"kind":"shape","id":"sh/i5sneloj","slide":1,"bbox":[820,144,380,380]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":1,"text":"小红书","textPreview":"小红书","textChars":3,"textLines":1,"bbox":[820,244,380,80]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":1,"text":"2025年7月","textPreview":"2025年7月","textChars":7,"textLines":1,"bbox":[820,544,380,40]}
+{"kind":"notes","id":"nt/ros6wm","slide":1,"text":""}
+{"kind":"slide","id":"sl/miow09","slide":2,"title":"01  平台洞察","textShapes":24}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":2,"bbox":[72,64,430,56]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":2,"text":"01  平台洞察","textPreview":"01  平台洞察","textChars":8,"textLines":1,"bbox":[92,68,390,48]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":2,"text":"美妆用户在小红书的行为特征","textPreview":"美妆用户在小红书的行为特征","textChars":13,"textLines":1,"bbox":[92,132,430,40]}
+{"kind":"shape","id":"sh/2t83itgf","slide":2,"bbox":[530,128,678,170]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":2,"text":"73%","textPreview":"73%","textChars":3,"textLines":1,"bbox":[554,138,300,80]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":2,"text":"美妆消费者在决策前会先在小红书搜索","textPreview":"美妆消费者在决策前会先在小红书搜索","textChars":17,"textLines":1,"bbox":[554,218,400,36]}
+{"kind":"textbox","id":"sh/9knih4by","slide":2,"text":"（来源：小红书美妆行业白皮书）","textPreview":"（来源：小红书美妆行业白皮书）","textChars":15,"textLines":1,"bbox":[930,164,200,80]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":2,"bbox":[72,324,430,100]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":2,"bbox":[88,360,8,28]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":2,"text":"搜索驱动决策","textPreview":"搜索驱动决策","textChars":6,"textLines":1,"bbox":[112,340,370,32]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":2,"text":"美妆用户平均搜索3.2次后才完成购买，关键词布局是投放的第一步","textPreview":"美妆用户平均搜索3.2次后才完成购买，关键词布局是投放的第一步","textChars":31,"textLines":1,"bbox":[112,376,370,36]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":2,"bbox":[72,444,430,100]}
+{"kind":"shape","id":"sh/s72x4nap","slide":2,"bbox":[88,480,8,28]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":2,"text":"真实体验优先","textPreview":"真实体验优先","textChars":6,"textLines":1,"bbox":[112,460,370,32]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":2,"text":"素人笔记的信任度高于明星代言，真实感是内容核心","textPreview":"素人笔记的信任度高于明星代言，真实感是内容核心","textChars":23,"textLines":1,"bbox":[112,496,370,36]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":2,"bbox":[72,564,430,100]}
+{"kind":"shape","id":"sh/sji5snel","slide":2,"bbox":[88,600,8,28]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":2,"text":"圈层化明显","textPreview":"圈层化明显","textChars":5,"textLines":1,"bbox":[112,580,370,32]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":2,"text":"成分党、敏感肌、抗老等细分人群需求差异大，需精准定向","textPreview":"成分党、敏感肌、抗老等细分人群需求差异大，需精准定向","textChars":26,"textLines":1,"bbox":[112,616,370,36]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":2,"text":"美妆用户种草→转化路径","textPreview":"美妆用户种草→转化路径","textChars":11,"textLines":1,"bbox":[530,324,678,40]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":2,"bbox":[570,374,800,64]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":2,"text":"100%","textPreview":"100%","textChars":4,"textLines":1,"bbox":[590,382,200,30]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":2,"text":"曝光触达","textPreview":"曝光触达","textChars":4,"textLines":1,"bbox":[730,382,300,30]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":2,"text":"信息流/搜索/话题页","textPreview":"信息流/搜索/话题页","textChars":10,"textLines":1,"bbox":[730,410,300,24]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":2,"bbox":[570,464,640,64]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":2,"text":"42%","textPreview":"42%","textChars":3,"textLines":1,"bbox":[590,472,200,30]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":2,"text":"互动收藏","textPreview":"互动收藏","textChars":4,"textLines":1,"bbox":[730,472,300,30]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":2,"text":"点赞/收藏/评论","textPreview":"点赞/收藏/评论","textChars":8,"textLines":1,"bbox":[730,500,300,24]}
+{"kind":"shape","id":"sh/nih4byhg","slide":2,"bbox":[570,554,480,64]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":2,"text":"18%","textPreview":"18%","textChars":3,"textLines":1,"bbox":[590,562,200,30]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":2,"text":"搜索加深","textPreview":"搜索加深","textChars":4,"textLines":1,"bbox":[730,562,300,30]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":2,"text":"品牌词/竞品词搜索","textPreview":"品牌词/竞品词搜索","textChars":9,"textLines":1,"bbox":[730,590,300,24]}
+{"kind":"shape","id":"sh/6tovahoz","slide":2,"bbox":[570,644,320,64]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":2,"text":"7%","textPreview":"7%","textChars":2,"textLines":1,"bbox":[590,652,200,30]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":2,"text":"站外转化","textPreview":"站外转化","textChars":4,"textLines":1,"bbox":[730,652,300,30]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":2,"text":"跳转电商/到店","textPreview":"跳转电商/到店","textChars":7,"textLines":1,"bbox":[730,680,300,24]}
+{"kind":"notes","id":"nt/miow09","slide":2,"text":""}
+{"kind":"slide","id":"sl/d16jmn","slide":3,"title":"02  达人矩阵策略","textShapes":26}
+{"kind":"shape","id":"sh/al87ed8b","slide":3,"bbox":[72,64,430,56]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":3,"text":"02  达人矩阵策略","textPreview":"02  达人矩阵策略","textChars":10,"textLines":1,"bbox":[92,68,390,48]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":3,"text":"金字塔模型与分层打法","textPreview":"金字塔模型与分层打法","textChars":10,"textLines":1,"bbox":[92,132,430,40]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":3,"bbox":[272,204,380,120]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":3,"text":"头部达人","textPreview":"头部达人","textChars":4,"textLines":1,"bbox":[288,216,300,36]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":3,"text":"5-10%","textPreview":"5-10%","textChars":5,"textLines":1,"bbox":[552,216,80,36]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":3,"text":"品牌背书 + 声量爆发","textPreview":"品牌背书 + 声量爆发","textChars":11,"textLines":1,"bbox":[288,256,348,30]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":3,"text":"20-30%","textPreview":"20-30%","textChars":6,"textLines":1,"bbox":[552,256,80,30]}
+{"kind":"shape","id":"sh/65wjudg7","slide":3,"bbox":[312,359,300,120]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":3,"text":"腰部达人","textPreview":"腰部达人","textChars":4,"textLines":1,"bbox":[328,371,220,36]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":3,"text":"20-30%","textPreview":"20-30%","textChars":6,"textLines":1,"bbox":[512,371,80,36]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":3,"text":"专业种草 + 信任建立","textPreview":"专业种草 + 信任建立","textChars":11,"textLines":1,"bbox":[328,411,268,30]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":3,"text":"40-50%","textPreview":"40-50%","textChars":6,"textLines":1,"bbox":[512,411,80,30]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":3,"bbox":[352,514,220,120]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":3,"text":"KOC/素人","textPreview":"KOC/素人","textChars":6,"textLines":1,"bbox":[368,526,140,36]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":3,"text":"60-75%","textPreview":"60-75%","textChars":6,"textLines":1,"bbox":[472,526,80,36]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":3,"text":"铺量造势 + SEO覆盖","textPreview":"铺量造势 + SEO覆盖","textChars":12,"textLines":1,"bbox":[368,566,188,30]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":3,"text":"20-30%","textPreview":"20-30%","textChars":6,"textLines":1,"bbox":[472,566,80,30]}
+{"kind":"shape","id":"sh/90je9cvi","slide":3,"bbox":[550,164,658,150]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":3,"text":"筛选标准","textPreview":"筛选标准","textChars":4,"textLines":1,"bbox":[570,180,400,32]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":3,"text":"• 粉丝量级 × 互动率 × 粉丝画像匹配度","textPreview":"• 粉丝量级 × 互动率 × 粉丝画像匹配度","textChars":22,"textLines":1,"bbox":[570,220,618,26]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":3,"text":"• 近30天内容垂直度 >= 80%","textPreview":"• 近30天内容垂直度 >= 80%","textChars":18,"textLines":1,"bbox":[570,250,618,26]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":3,"text":"• 过往品牌合作口碑评估","textPreview":"• 过往品牌合作口碑评估","textChars":12,"textLines":1,"bbox":[570,280,618,26]}
+{"kind":"shape","id":"sh/twra5gbq","slide":3,"bbox":[550,334,658,150]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":3,"text":"报价管理","textPreview":"报价管理","textChars":4,"textLines":1,"bbox":[570,350,400,32]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":3,"text":"• 建立分级报价体系，设定上限","textPreview":"• 建立分级报价体系，设定上限","textChars":15,"textLines":1,"bbox":[570,390,618,26]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":3,"text":"• 批量采购享受折扣（10篇+）","textPreview":"• 批量采购享受折扣（10篇+）","textChars":16,"textLines":1,"bbox":[570,420,618,26]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":3,"text":"• 以置换+费用组合降低成本","textPreview":"• 以置换+费用组合降低成本","textChars":14,"textLines":1,"bbox":[570,450,618,26]}
+{"kind":"shape","id":"sh/47y1kre1","slide":3,"bbox":[550,504,658,150]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":3,"text":"内容把控","textPreview":"内容把控","textChars":4,"textLines":1,"bbox":[570,520,400,32]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":3,"text":"• brief给方向不给限制","textPreview":"• brief给方向不给限制","textChars":14,"textLines":1,"bbox":[570,560,618,26]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":3,"text":"• 保留达人原创表达空间","textPreview":"• 保留达人原创表达空间","textChars":12,"textLines":1,"bbox":[570,590,618,26]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":3,"text":"• 设置3个必提卖点即可","textPreview":"• 设置3个必提卖点即可","textChars":12,"textLines":1,"bbox":[570,620,618,26]}
+{"kind":"notes","id":"nt/d16jmn","slide":3,"text":""}
+{"kind":"slide","id":"sl/3jcd2b","slide":4,"title":"03  内容方向","textShapes":23}
+{"kind":"shape","id":"sh/87ed8bat","slide":4,"bbox":[72,64,430,56]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":4,"text":"03  内容方向","textPreview":"03  内容方向","textChars":8,"textLines":1,"bbox":[92,68,390,48]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":4,"text":"爆款笔记的结构拆解","textPreview":"爆款笔记的结构拆解","textChars":9,"textLines":1,"bbox":[92,132,430,40]}
+{"kind":"shape","id":"sh/1gvy90je","slide":4,"bbox":[82,184,658,210]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":4,"bbox":[82,184,658,6]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":4,"text":"测评类","textPreview":"测评类","textChars":3,"textLines":1,"bbox":[102,208,558,32]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":4,"bbox":[632,210,76,28]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":4,"text":"信任型内容","textPreview":"信任型内容","textChars":5,"textLines":1,"bbox":[632,212,72,24]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":4,"text":"横向对比3-5款同类产品，突出自家优势","textPreview":"横向对比3-5款同类产品，突出自家优势","textChars":19,"textLines":1,"bbox":[102,248,598,36]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":4,"text":"示例：\"空瓶记\"式真实使用记录，前后对比图","textPreview":"示例：\"空瓶记\"式真实使用记录，前后对比图","textChars":21,"textLines":1,"bbox":[102,290,598,30]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":4,"bbox":[102,334,100,40]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":4,"text":"占比25%","textPreview":"占比25%","textChars":5,"textLines":1,"bbox":[106,338,92,32]}
+{"kind":"shape","id":"sh/58z25kb6","slide":4,"bbox":[788,184,658,210]}
+{"kind":"shape","id":"sh/y90je9cv","slide":4,"bbox":[788,184,658,6]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":4,"text":"教程类","textPreview":"教程类","textChars":3,"textLines":1,"bbox":[808,208,558,32]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":4,"bbox":[1338,210,76,28]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":4,"text":"实用型内容","textPreview":"实用型内容","textChars":5,"textLines":1,"bbox":[1338,212,72,24]}
+{"kind":"textbox","id":"sh/u54zidon","slide":4,"text":"场景化教学（如早C晚A搭配指南）","textPreview":"场景化教学（如早C晚A搭配指南）","textChars":16,"textLines":1,"bbox":[808,248,598,36]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":4,"text":"示例：步骤清晰、可复制，收藏率高","textPreview":"示例：步骤清晰、可复制，收藏率高","textChars":16,"textLines":1,"bbox":[808,290,598,30]}
+{"kind":"shape","id":"sh/je9cvixc","slide":4,"bbox":[808,334,100,40]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":4,"text":"占比30%","textPreview":"占比30%","textChars":5,"textLines":1,"bbox":[812,338,92,32]}
+{"kind":"shape","id":"sh/1gvy90je","slide":4,"bbox":[82,414,658,210]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":4,"bbox":[82,414,658,6]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":4,"text":"故事类","textPreview":"故事类","textChars":3,"textLines":1,"bbox":[102,438,558,32]}
+{"kind":"shape","id":"sh/q1orytsv","slide":4,"bbox":[632,440,76,28]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":4,"text":"情感型内容","textPreview":"情感型内容","textChars":5,"textLines":1,"bbox":[632,442,72,24]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":4,"text":"个人经历+产品融入（如敏感肌自救）","textPreview":"个人经历+产品融入（如敏感肌自救）","textChars":17,"textLines":1,"bbox":[102,478,598,36]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":4,"text":"示例：引发共鸣，评论区互动率高","textPreview":"示例：引发共鸣，评论区互动率高","textChars":15,"textLines":1,"bbox":[102,520,598,30]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":4,"bbox":[102,564,100,40]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":4,"text":"占比20%","textPreview":"占比20%","textChars":5,"textLines":1,"bbox":[106,568,92,32]}
+{"kind":"shape","id":"sh/p4r65wju","slide":4,"bbox":[788,414,658,210]}
+{"kind":"shape","id":"sh/ed8v6psf","slide":4,"bbox":[788,414,658,6]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":4,"text":"干货类","textPreview":"干货类","textChars":3,"textLines":1,"bbox":[808,438,558,32]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":4,"bbox":[1338,440,76,28]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":4,"text":"知识型内容","textPreview":"知识型内容","textChars":5,"textLines":1,"bbox":[1338,442,72,24]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":4,"text":"成分科普、选购指南、避坑攻略","textPreview":"成分科普、选购指南、避坑攻略","textChars":14,"textLines":1,"bbox":[808,478,598,36]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":4,"text":"示例：长尾流量好，搜索排名持续生效","textPreview":"示例：长尾流量好，搜索排名持续生效","textChars":17,"textLines":1,"bbox":[808,520,598,30]}
+{"kind":"shape","id":"sh/0z61032l","slide":4,"bbox":[808,564,100,40]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":4,"text":"占比25%","textPreview":"占比25%","textChars":5,"textLines":1,"bbox":[812,568,92,32]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":4,"bbox":[72,654,1136,56]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":4,"text":"关键结论：标题决定点击率，封面决定停留，正文决定转化 — 三者缺一不可","textPreview":"关键结论：标题决定点击率，封面决定停留，正文决定转化 — 三者缺一不可","textChars":35,"textLines":1,"bbox":[92,658,1096,48]}
+{"kind":"notes","id":"nt/3jcd2b","slide":4,"text":""}
+{"kind":"slide","id":"sl/3e9f4o","slide":5,"title":"04  投放节奏与预算","textShapes":30}
+{"kind":"shape","id":"sh/4byhgn29","slide":5,"bbox":[72,64,430,56]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":5,"text":"04  投放节奏与预算","textPreview":"04  投放节奏与预算","textChars":11,"textLines":1,"bbox":[92,68,390,48]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":5,"text":"4周SOP框架","textPreview":"4周SOP框架","textChars":7,"textLines":1,"bbox":[92,132,430,40]}
+{"kind":"shape","id":"sh/t83itgfm","slide":5,"bbox":[112,264,1056,3]}
+{"kind":"shape","id":"sh/4nap4r65","slide":5,"bbox":[112,254,270,44]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":5,"text":"第1周 · 蓄水期","textPreview":"第1周 · 蓄水期","textChars":9,"textLines":1,"bbox":[124,258,160,36]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":5,"text":"15%","textPreview":"15%","textChars":3,"textLines":1,"bbox":[312,258,56,36]}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":5,"bbox":[112,304,270,340]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":5,"text":"▸ 达人招募与brief下发","textPreview":"▸ 达人招募与brief下发","textChars":14,"textLines":1,"bbox":[132,324,230,70]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":5,"text":"▸ 种子笔记铺垫（10-15篇）","textPreview":"▸ 种子笔记铺垫（10-15篇）","textChars":16,"textLines":1,"bbox":[132,404,230,70]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":5,"text":"▸ 品牌词SEO占位","textPreview":"▸ 品牌词SEO占位","textChars":10,"textLines":1,"bbox":[132,484,230,70]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":5,"bbox":[412,254,270,44]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":5,"text":"第2周 · 爆发期","textPreview":"第2周 · 爆发期","textChars":9,"textLines":1,"bbox":[424,258,160,36]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":5,"text":"45%","textPreview":"45%","textChars":3,"textLines":1,"bbox":[612,258,56,36]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":5,"bbox":[412,304,270,340]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":5,"text":"▸ 腰部达人集中发布（30-50篇）","textPreview":"▸ 腰部达人集中发布（30-50篇）","textChars":18,"textLines":1,"bbox":[432,324,230,70]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":5,"text":"▸ 头部达人引爆声量","textPreview":"▸ 头部达人引爆声量","textChars":10,"textLines":1,"bbox":[432,404,230,70]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":5,"text":"▸ 信息流投放加码","textPreview":"▸ 信息流投放加码","textChars":9,"textLines":1,"bbox":[432,484,230,70]}
+{"kind":"shape","id":"sh/72x4nap4","slide":5,"bbox":[712,254,270,44]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":5,"text":"第3周 · 扩散期","textPreview":"第3周 · 扩散期","textChars":9,"textLines":1,"bbox":[724,258,160,36]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":5,"text":"25%","textPreview":"25%","textChars":3,"textLines":1,"bbox":[912,258,56,36]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":5,"bbox":[712,304,270,340]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":5,"text":"▸ KOC铺量（100+篇）","textPreview":"▸ KOC铺量（100+篇）","textChars":14,"textLines":1,"bbox":[732,324,230,70]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":5,"text":"▸ UGC话题挑战","textPreview":"▸ UGC话题挑战","textChars":9,"textLines":1,"bbox":[732,404,230,70]}
+{"kind":"textbox","id":"sh/ulwval87","slide":5,"text":"▸ 评论区运营引导","textPreview":"▸ 评论区运营引导","textChars":9,"textLines":1,"bbox":[732,484,230,70]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":5,"bbox":[1012,254,270,44]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":5,"text":"第4周 · 复盘期","textPreview":"第4周 · 复盘期","textChars":9,"textLines":1,"bbox":[1024,258,160,36]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":5,"text":"15%","textPreview":"15%","textChars":3,"textLines":1,"bbox":[1212,258,56,36]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":5,"bbox":[1012,304,270,340]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":5,"text":"▸ 数据追踪与效果归因","textPreview":"▸ 数据追踪与效果归因","textChars":11,"textLines":1,"bbox":[1032,324,230,70]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":5,"text":"▸ 优质内容二次投放","textPreview":"▸ 优质内容二次投放","textChars":10,"textLines":1,"bbox":[1032,404,230,70]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":5,"text":"▸ 沉淀SOP与达人库","textPreview":"▸ 沉淀SOP与达人库","textChars":11,"textLines":1,"bbox":[1032,484,230,70]}
+{"kind":"shape","id":"sh/bq1oryts","slide":5,"bbox":[112,674,270,44]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":5,"text":"曝光量","textPreview":"曝光量","textChars":3,"textLines":1,"bbox":[128,680,120,32]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":5,"text":"目标值","textPreview":"目标值","textChars":3,"textLines":1,"bbox":[252,680,120,32]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":5,"bbox":[412,674,270,44]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":5,"text":"互动率","textPreview":"互动率","textChars":3,"textLines":1,"bbox":[428,680,120,32]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":5,"text":">= 3%","textPreview":">= 3%","textChars":5,"textLines":1,"bbox":[552,680,120,32]}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":5,"bbox":[712,674,270,44]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":5,"text":"搜索排名","textPreview":"搜索排名","textChars":4,"textLines":1,"bbox":[728,680,120,32]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":5,"text":"品牌词TOP3","textPreview":"品牌词TOP3","textChars":7,"textLines":1,"bbox":[852,680,120,32]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":5,"bbox":[1012,674,270,44]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":5,"text":"ROI","textPreview":"ROI","textChars":3,"textLines":1,"bbox":[1028,680,120,32]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":5,"text":">= 1.5","textPreview":">= 1.5","textChars":6,"textLines":1,"bbox":[1152,680,120,32]}
+{"kind":"notes","id":"nt/3e9f4o","slide":5,"text":""}
+{"kind":"slide","id":"sl/bpbc2g","slide":6,"title":"05  能力匹配","textShapes":18}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":6,"bbox":[72,64,430,56]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":6,"text":"05  能力匹配","textPreview":"05  能力匹配","textChars":8,"textLines":1,"bbox":[92,68,390,48]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":6,"text":"为什么我能胜任这个岗位","textPreview":"为什么我能胜任这个岗位","textChars":11,"textLines":1,"bbox":[92,132,430,40]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":6,"bbox":[72,204,390,76]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":6,"text":"✓ 30+品牌客户对接执行","textPreview":"✓ 30+品牌客户对接执行","textChars":13,"textLines":1,"bbox":[92,226,350,32]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[420,224,40,36]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":6,"bbox":[530,204,658,76]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":6,"text":"达人招募与需求沟通","textPreview":"达人招募与需求沟通","textChars":9,"textLines":1,"bbox":[550,226,618,32]}
+{"kind":"shape","id":"sh/g3ex0nux","slide":6,"bbox":[72,300,390,76]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":6,"text":"✓ 2000万+广告流水管理","textPreview":"✓ 2000万+广告流水管理","textChars":14,"textLines":1,"bbox":[92,322,350,32]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[420,320,40,36]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":6,"bbox":[530,300,658,76]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":6,"text":"预算分配与报价管控","textPreview":"预算分配与报价管控","textChars":9,"textLines":1,"bbox":[550,322,618,32]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":6,"bbox":[72,396,390,76]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":6,"text":"✓ SOP流程搭建（抖音/百度）","textPreview":"✓ SOP流程搭建（抖音/百度）","textChars":16,"textLines":1,"bbox":[92,418,350,32]}
+{"kind":"textbox","id":"sh/83itgfml","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[420,416,40,36]}
+{"kind":"shape","id":"sh/xobm58z2","slide":6,"bbox":[530,396,658,76]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":6,"text":"小红书媒介执行SOP","textPreview":"小红书媒介执行SOP","textChars":10,"textLines":1,"bbox":[550,418,618,32]}
+{"kind":"shape","id":"sh/fepkzupw","slide":6,"bbox":[72,492,390,76]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":6,"text":"✓ 数据归因分析 & ROI优化","textPreview":"✓ 数据归因分析 & ROI优化","textChars":16,"textLines":1,"bbox":[92,514,350,32]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[420,512,40,36]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":6,"bbox":[530,492,658,76]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":6,"text":"投放效果追踪与复盘","textPreview":"投放效果追踪与复盘","textChars":9,"textLines":1,"bbox":[550,514,618,32]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":6,"bbox":[72,588,390,76]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":6,"text":"✓ 跨部门协同（设计/媒介/财务）","textPreview":"✓ 跨部门协同（设计/媒介/财务）","textChars":17,"textLines":1,"bbox":[92,610,350,32]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[420,608,40,36]}
+{"kind":"shape","id":"sh/0z61032l","slide":6,"bbox":[530,588,658,76]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":6,"text":"内容审核与出品把控","textPreview":"内容审核与出品把控","textChars":9,"textLines":1,"bbox":[550,610,618,32]}
+{"kind":"shape","id":"sh/i5sneloj","slide":6,"bbox":[72,694,992,72]}
+{"kind":"textbox","id":"sh/obm58z25","slide":6,"text":"“我不是只做执行的人，而是能从品牌视角理解平台逻辑、推动营销闭环的项目经理。”","textPreview":"“我不是只做执行的人，而是能从品牌视角理解平台逻辑、推动营销闭环的项目经理。”","textChars":39,"textLines":1,"bbox":[96,706,944,56]}
+{"kind":"notes","id":"nt/bpbc2g","slide":6,"text":""}
