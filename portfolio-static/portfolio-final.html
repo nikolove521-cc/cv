@@ -289,25 +289,25 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   .skill-card h4{font-size:.85rem;margin-bottom:4px}
   .skill-card p{font-size:.75rem}
   
-  /* Projects - KEY FIXES */
-  .projects{padding:80px 0}
-  .projects-header{flex-direction:column;gap:16px;align-items:flex-start;margin-bottom:48px}
+  /* Projects - unified vertical stack, image top text bottom */
+  .projects{padding:60px 0}
+  .projects-header{flex-direction:column;gap:16px;align-items:flex-start;margin-bottom:40px}
   .projects-header .section-desc{margin-left:0!important;text-align:left!important;max-width:100%}
-  .project-grid{gap:20px}
+  .project-grid{gap:24px}
   
-  /* All project cards - vertical stack on mobile (image top, text bottom) */
+  /* All project cards: flex column, no grid */
   .project-featured,.project-standard{
-    grid-template-columns:1fr!important;
-    gap:0!important;
     display:flex!important;
     flex-direction:column!important;
+    grid-template-columns:none!important;
+    gap:0!important;
   }
   .project-featured.reverse,.project-standard.reverse{
     flex-direction:column!important;
     direction:ltr!important;
   }
   
-  /* Project visual - full width, proper height for PPT slides */
+  /* Project visual: full width, auto height preserving aspect ratio */
   .project-visual{
     width:100%!important;
     min-height:auto!important;
@@ -318,98 +318,105 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   .project-visual .carousel-visual{
     width:100%!important;
     height:auto!important;
-    aspect-ratio:16/10!important;
-    overflow:visible!important;
+    aspect-ratio:4/3!important;
+    overflow:hidden!important;
+    border-radius:0!important;
   }
   .project-visual .carousel-track{
     height:auto!important;
+    flex-direction:row!important;
   }
   .project-visual .carousel-slide{
+    min-width:100%!important;
     height:auto!important;
     min-height:auto!important;
+    flex-shrink:0;
   }
   .project-visual .carousel-slide img{
     width:100%!important;
     height:auto!important;
     max-height:none!important;
     object-fit:contain!important;
-    padding:10px!important;
+    padding:0!important;
     display:block!important;
   }
   
-  /* Project details - below image, full width */
+  /* Carousel dots */
+  .carousel-nav{
+    position:absolute!important;
+    bottom:8px!important;
+    left:50%!important;
+    transform:translateX(-50%)!important;
+    z-index:5!important;
+  }
+  .carousel-dot{
+    width:6px!important;
+    height:6px!important;
+    opacity:.6!important;
+  }
+  .carousel-dot.active{
+    opacity:1!important;
+    width:16px!important;
+  }
+  
+  /* Project details: always below image */
   .project-details{
     width:100%!important;
-    padding:20px 16px!important;
+    padding:16px 16px!important;
     order:1!important;
+    min-height:auto!important;
   }
+  .project-type{font-size:.58rem;margin-bottom:6px}
+  .project-title{font-size:1.05rem!important;margin-bottom:6px!important;line-height:1.3}
+  .project-desc{font-size:.76rem;line-height:1.6!important;margin-bottom:12px!important}
+  .project-tags{gap:5px!important;margin-bottom:12px!important}
+  .project-tags .tag{font-size:.55rem;padding:3px 8px}
+  .project-link{font-size:.7rem}
   
-  /* Project details - compact on mobile */
-  .project-details{
-    padding:20px 16px!important;
+  /* Life Gallery - compact, smaller photos with design treatment */
+  .life-gallery{padding:32px 0 20px}
+  .gallery-header{margin-bottom:24px}
+  .gallery-grid-modern{
+    display:grid!important;
+    grid-template-columns:1fr 1fr!important;
+    gap:10px!important;
   }
-  .project-type{font-size:.6rem;margin-bottom:8px}
-  .project-title{font-size:1.1rem!important;margin-bottom:8px!important}
-  .project-desc{font-size:.78rem;line-height:1.6!important;margin-bottom:16px!important}
-  .project-tags{gap:6px!important;margin-bottom:16px!important}
-  .project-tags .tag{font-size:.58rem;padding:4px 8px}
-  .project-link{font-size:.72rem}
-  
-  /* Life Gallery - single column, full width */
-  .life-gallery{padding:40px 0 32px}
-  .gallery-header{margin-bottom:28px}
-  .gallery-grid-modern{gap:12px}
   .gallery-row{
-    grid-template-columns:1fr!important;
-    gap:12px!important;
+    display:contents!important;
   }
   .gallery-photos-stack{
-    flex-direction:column!important;
-    gap:12px!important;
+    display:contents!important;
   }
   .gallery-photo{
     width:100%!important;
     min-height:auto!important;
     border:1px solid var(--border)!important;
+    background:var(--bg-elevated)!important;
+    border-radius:4px!important;
+    overflow:hidden!important;
+    position:relative!important;
   }
   .gallery-photo img{
     width:100%!important;
     height:auto!important;
+    max-height:200px!important;
+    object-fit:contain!important;
     display:block!important;
     margin:0!important;
     padding:0!important;
+    filter:saturate(.85);
+    transition:transform .4s ease, filter .4s ease;
   }
-  .gallery-photo-caption{display:none}
-  
-  /* Project carousel - ensure full visibility on mobile */
-  .project-visual{
-    width:100%!important;
-    overflow:visible!important;
+  .gallery-photo:hover img{
+    transform:scale(1.02);
+    filter:saturate(1);
   }
-  .project-visual .carousel-visual{
-    width:100%!important;
-    height:auto!important;
-    aspect-ratio:16/10!important;
-    overflow:visible!important;
-  }
-  .project-visual .carousel-track{
-    height:auto!important;
-  }
-  .project-visual .carousel-slide{
-    height:auto!important;
-    min-height:auto!important;
-  }
-  .project-visual .carousel-slide img{
-    width:100%!important;
-    height:auto!important;
-    max-height:none!important;
-    object-fit:contain!important;
-    padding:6px!important;
-    display:block!important;
+  .gallery-photo-caption{
+    display:none!important;
   }
   
   /* Contact */
-  .contact-section{padding:60px 0 60px}
+  .contact-section{padding:40px 0 60px}
   .contact-big-title{font-size:1.6rem}
   .contact-methods{flex-direction:column;gap:20px}
   .contact-email-btn{
@@ -439,6 +446,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   .lightbox-project-info .lb-title{font-size:.85rem}
   .lightbox-project-info .lb-type{font-size:.6rem}
 }
+
 @media(max-width:480px){
   .hero-title{font-size:2.2rem}
   .section-title{font-size:1.6rem}
@@ -470,13 +478,6 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .lightbox-project-info .lb-title{font-family:var(--serif);font-size:1.15rem;color:var(--text-primary);margin-bottom:4px}
 .lightbox-project-info .lb-type{font-size:.7rem;color:var(--gold);letter-spacing:.15em;text-transform:uppercase}
 /* Force LTR for reverse project cards on mobile */
-@media(max-width:768px){
-  .project-featured.reverse,.project-standard.reverse{direction:ltr!important}
-  .project-featured.reverse .project-visual,
-  .project-featured.reverse .project-details,
-  .project-standard.reverse .project-visual,
-  .project-standard.reverse .project-details{direction:ltr!important}
-}
 </style>
 </head>
 <body>
@@ -553,7 +554,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         </div>
         <div class="about-contact reveal reveal-delay-4">
           <div class="contact-row"><span class="dot"></span>13113658167</div>
-          <div class="contact-row"><span class="dot"></span>707316470@qq.com</div>
+          <div class="contact-row"><span class="dot"></span>707316470@11qq.com</div>
           <div class="contact-row"><span class="dot"></span>中国</div>
         </div>
       </div>
@@ -908,14 +909,14 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         </div>
         <div class="contact-method">
           <span class="contact-method-label">邮箱</span>
-          <a href="mailto:707316470@qq.com" class="contact-method-value">707316470@qq.com</a>
+          <a href="mailto:707316470@11qq.com" class="contact-method-value">707316470@11qq.com</a>
         </div>
         <div class="contact-method">
           <span class="contact-method-label">微信</span>
           <span class="contact-method-value">JCAIXUAN</span>
         </div>
       </div>
-      <a href="mailto:707316470@qq.com" class="contact-email-btn reveal reveal-delay-4">
+      <a href="mailto:707316470@11qq.com" class="contact-email-btn reveal reveal-delay-4">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"/></svg>
         发送邮件
       </a>
