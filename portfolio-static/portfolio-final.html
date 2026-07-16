@@ -295,33 +295,53 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   .projects-header .section-desc{margin-left:0!important;text-align:left!important;max-width:100%}
   .project-grid{gap:20px}
   
-  /* All project cards - full width stacked */
+  /* All project cards - vertical stack on mobile (image top, text bottom) */
   .project-featured,.project-standard{
     grid-template-columns:1fr!important;
     gap:0!important;
+    display:flex!important;
+    flex-direction:column!important;
   }
   .project-featured.reverse,.project-standard.reverse{
-    direction:ltr!important;
-  }
-  .project-featured.reverse .project-visual,
-  .project-featured.reverse .project-details,
-  .project-standard.reverse .project-visual,
-  .project-standard.reverse .project-details{
+    flex-direction:column!important;
     direction:ltr!important;
   }
   
-  /* Project visual - tall enough for full images */
+  /* Project visual - full width, proper height for PPT slides */
   .project-visual{
-    min-height:360px!important;
-    overflow:hidden;
+    width:100%!important;
+    min-height:auto!important;
+    max-height:none!important;
+    overflow:visible!important;
+    order:0!important;
   }
   .project-visual .carousel-visual{
-    height:100%!important;
+    width:100%!important;
+    height:auto!important;
+    aspect-ratio:16/10!important;
+    overflow:visible!important;
+  }
+  .project-visual .carousel-track{
+    height:auto!important;
+  }
+  .project-visual .carousel-slide{
+    height:auto!important;
+    min-height:auto!important;
   }
   .project-visual .carousel-slide img{
+    width:100%!important;
+    height:auto!important;
+    max-height:none!important;
     object-fit:contain!important;
-    padding:8px!important;
-    max-height:340px;
+    padding:10px!important;
+    display:block!important;
+  }
+  
+  /* Project details - below image, full width */
+  .project-details{
+    width:100%!important;
+    padding:20px 16px!important;
+    order:1!important;
   }
   
   /* Project details - compact on mobile */
