@@ -126,7 +126,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .carousel-nav{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:5}
 .carousel-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.3);cursor:pointer;transition:all .3s ease}
 .carousel-dot.active{background:var(--gold);border-color:var(--gold);width:24px;border-radius:4px}
-@media(min-width:1025px){.carousel-slide img{object-fit:cover;padding:0}}
+@media(min-width:1025px){.carousel-slide img{object-fit:contain;padding:12px}}
 /* Abstract Card */
 .abstract-card{width:100%;height:100%;position:relative;overflow:hidden}
 .abstract-card-bg{position:absolute;inset:0}
@@ -184,7 +184,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   background:var(--bg-elevated);
   border:1px solid var(--border);
   border-radius:6px;
-  overflow:visible;
+  overflow:hidden;
   transition:all .5s var(--ease-out-expo);
   box-shadow:0 2px 12px rgba(0,0,0,.3);
 }
@@ -284,7 +284,16 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   .about-layout{grid-template-columns:1fr;gap:50px}
   .about-portrait{max-width:300px;margin:0 auto}
   .skills-grid{grid-template-columns:repeat(2,1fr)}
-  .project-featured,.project-standard{grid-template-columns:1fr}
+  .project-featured,.project-standard{
+    display:flex!important;
+    flex-direction:column!important;
+    grid-template-columns:none!important;
+    gap:0!important;
+  }
+  .project-featured.reverse,.project-standard.reverse{
+    flex-direction:column!important;
+    direction:ltr!important;
+  }
   .project-visual{min-height:320px}
   .project-details{padding:28px 28px!important}
   .navbar{padding:0 40px}
@@ -379,13 +388,13 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
     width:100%!important;
     min-height:auto!important;
     max-height:none!important;
-    overflow:visible!important;
+    overflow:hidden!important;
     order:0!important;
   }
   .project-visual .carousel-visual{
     width:100%!important;
     height:auto!important;
-    aspect-ratio:4/3!important;
+    aspect-ratio:auto!important;
     overflow:hidden!important;
     border-radius:0!important;
   }
