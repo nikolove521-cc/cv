@@ -170,7 +170,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .card-frame{max-height:260px}
 .gallery-card-tall .card-frame{max-height:540px}
 .gallery-card-wide .card-frame{max-height:240px}
-.gallery-card-small .card-frame{max-height:200px}
+.gallery-card-small .card-frame{max-height:220px}
 
 .gallery-card{
   display:flex;
@@ -178,7 +178,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 }
 .gallery-card-tall{grid-row:span 2}
 .gallery-card-wide{grid-column:span 2}
-.gallery-card-small .card-frame{aspect-ratio:4/3}
+.gallery-card-small .card-frame{aspect-ratio:auto}
 .card-frame{
   position:relative;
   background:var(--bg-elevated);
@@ -187,6 +187,15 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   overflow:hidden;
   transition:all .5s var(--ease-out-expo);
   box-shadow:0 2px 12px rgba(0,0,0,.3);
+}
+.card-frame::after{
+  content:'';
+  position:absolute;
+  top:8px;left:8px;right:8px;bottom:8px;
+  border:1px solid rgba(196,162,101,.12);
+  pointer-events:none;
+  z-index:2;
+  border-radius:2px;
 }
 .card-frame::before{
   content:'';
@@ -201,8 +210,22 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   width:100%;
   height:auto;
   display:block;
-  transition:transform .6s var(--ease-out-expo), filter .4s ease;
-  filter:saturate(.8) brightness(.95);
+  transition:transform .6s var(--ease-out-expo), filter .4s ease, opacity .4s ease;
+  filter:saturate(.75) brightness(.92) contrast(1.05);
+  opacity:.92;
+}
+.gallery-card:nth-child(odd) .card-frame{
+  transform:rotate(-.5deg);
+}
+.gallery-card:nth-child(even) .card-frame{
+  transform:rotate(.5deg);
+}
+.gallery-card:nth-child(odd):hover .card-frame,
+.gallery-card:nth-child(even):hover .card-frame{
+  transform:rotate(0deg) translateY(-4px);
+}
+.gallery-card:hover .card-frame img{
+  opacity:1;
 }
 .gallery-card:hover .card-frame{
   border-color:var(--border-gold);
@@ -379,7 +402,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
     gap:0!important;
   }
   .project-featured.reverse,.project-standard.reverse{
+    display:flex!important;
     flex-direction:column!important;
+    grid-template-columns:none!important;
+    gap:0!important;
     direction:ltr!important;
   }
   
