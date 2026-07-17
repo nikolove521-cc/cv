@@ -1242,6 +1242,31 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor){
     });
   }
 })();
-</script>
+
+// Force mobile project layout: all cards stack vertically (image top, text bottom)
+(function(){
+  function fixMobileProjects(){
+    if(window.innerWidth <= 768){
+      document.querySelectorAll(".project-featured, .project-standard").forEach(function(card){
+        card.style.display = "flex";
+        card.style.flexDirection = "column";
+        card.style.gridTemplateColumns = "none";
+        card.style.gap = "0";
+        var visual = card.querySelector(".project-visual");
+        var details = card.querySelector(".project-details");
+        if(visual && details){
+          visual.style.order = "0";
+          details.style.order = "1";
+          visual.style.width = "100%";
+          details.style.width = "100%";
+        }
+      });
+    }
+  }
+  fixMobileProjects();
+  window.addEventListener("resize", function(){
+    requestAnimationFrame(fixMobileProjects);
+  });
+})();</script>
 </body>
 </html>
