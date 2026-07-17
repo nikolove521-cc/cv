@@ -757,7 +757,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
       </div>
 
       <!-- Project 2: Standard Reverse — Carousel (ECHOEGROUP) -->
-      <div class="project-standard reveal reverse">
+      <div class="project-standard reveal">
         <div class="project-visual">
           <div class="carousel-visual" data-carousel="echo">
             <div class="carousel-track">
@@ -813,7 +813,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
       </div>
 
       <!-- Project 4: Standard Reverse — Carousel (参半) -->
-      <div class="project-standard reveal reverse">
+      <div class="project-standard reveal">
         <div class="project-visual">
           <div class="carousel-visual" data-carousel="canban">
             <div class="carousel-track">
@@ -1243,30 +1243,5 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor){
   }
 })();
 
-// Force mobile project layout: all cards stack vertically (image top, text bottom)
-(function(){
-  function fixMobileProjects(){
-    if(window.innerWidth <= 768){
-      document.querySelectorAll(".project-featured, .project-standard").forEach(function(card){
-        card.style.display = "flex";
-        card.style.flexDirection = "column";
-        card.style.gridTemplateColumns = "none";
-        card.style.gap = "0";
-        var visual = card.querySelector(".project-visual");
-        var details = card.querySelector(".project-details");
-        if(visual && details){
-          visual.style.order = "0";
-          details.style.order = "1";
-          visual.style.width = "100%";
-          details.style.width = "100%";
-        }
-      });
-    }
-  }
-  fixMobileProjects();
-  window.addEventListener("resize", function(){
-    requestAnimationFrame(fixMobileProjects);
-  });
-})();</script>
 </body>
 </html>
